@@ -1,7 +1,5 @@
 FROM ubuntu:16.04
 
-ENV delete_me qwe
-
 ENV ANDROID_HOME /opt/mcloud/android-sdk-linux
 ENV PATH ${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools:$PATH
 
